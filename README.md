@@ -40,6 +40,7 @@ Ensure you have a working ERPNext instance installed.
 - The app runs in the background and requires no manual intervention.
 - You can check the logs to verify email delivery and CSV file generation.
 - The generated CSV file will be attached to the email and sent to the configured recipient.
+- There is also a Report called *Login Attempts Report* which preview the login attempts during selected period.
 
 ## Uninstallation
 If you wish to remove the app, run:
