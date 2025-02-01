@@ -148,23 +148,23 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"login_stats.tasks.all"
-# 	],
-# 	"daily": [
-# 		"login_stats.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"login_stats.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"login_stats.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"login_stats.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	# "all": [
+	# 	"login_stats.tasks.all"
+	# ],
+	"daily": [
+		"login_stats.jobs.generate_user_login_report"
+	],
+	# "hourly": [
+	# 	"login_stats.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"login_stats.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"login_stats.tasks.monthly"
+	# ],
+}
 
 # Testing
 # -------
